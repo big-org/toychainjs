@@ -10,7 +10,7 @@ We will build a functional system that addresses a real world problem, but the f
 **ToyChain JS** is an ES6 implementation of the [ToyChain Spec](https://github.com/big-org/toychain/wiki "ToyChain Blockchain Spec")
 
 ## Installation
-  1. `git clone toychainjs`
+  1. `git clone https://github.com/big-org/toychainjs`
   2. `cd toychainjs`
   3. `npm install`
   4. `gulp test` optional
@@ -20,11 +20,6 @@ There is a central repository where we document the details. [ToyChain Wiki](htt
 
 ## Tests
 You can watch for it by running `gulp` (If you are in dev mode.). Or if you want a one time test you can do `gulp test`.
-
-## Team
-  1. Nikhil Mohan - [@niksmac](https://github.com/niksmac)
-  2. Sibiraj PR - [@sibizulu](https://github.com/sibizulu)
-  3. Blockchain Interest Group - [@big-org](https://github.com/big-org "Blockchain Interest Group")
 
 ### Misc
 

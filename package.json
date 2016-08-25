@@ -16,6 +16,9 @@
   "scripts": {
     "test": "standard && mocha --compilers js:babel-core/register"
   },
+  "babel": {
+    "presets": ["es2015"]
+  },
   "standard": {
     "parser": "babel-eslint",
     "ignore": [

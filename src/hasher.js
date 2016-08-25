@@ -1,11 +1,8 @@
 const crypto = require('crypto')
 
 class Hasher {
-  constructor (theString) {
-    this.string = theString.toString()
-  }
-  hashIt () {
-    return crypto.createHash('sha256').update(this.string).digest('hex')
+  static hashIt (obj, serializer) {
+    return crypto.createHash('sha256').update(serializer.serialize(obj)).digest('hex')
   }
 }
 export default Hasher

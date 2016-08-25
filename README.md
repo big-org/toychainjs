@@ -1,7 +1,6 @@
 # ToyChain JS
 
-[![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/) [![Dependencies](https://img.shields.io/david/strongloop/express.svg?maxAge=2592000?style=flat-square)](https://github.com/big-org/toychain) [![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg?maxAge=2592000?style=flat-square)](https://github.com/big-org/toychain)
-
+[![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/) [![Dependencies](https://img.shields.io/david/strongloop/express.svg?maxAge=2592000?style=flat-square)](https://github.com/big-org/toychain) [![Build Status](https://travis-ci.org/big-org/toychainjs.svg?branch=master)](https://travis-ci.org/big-org/toychainjs)
 ## What is ToyChain?
 ToyChain is a simple (toy) implementation of a blockchain. The main purpose of the implementation is to provide a simple code foundation using which people can build their understanding of what is a blockchain.
 

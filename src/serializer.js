@@ -1,5 +1,5 @@
 class Serializer {
-  serialize(obj) {
+  static serialize(obj) {
     return JSON.stringify(obj)
   }
 }

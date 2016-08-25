@@ -8,22 +8,19 @@ describe('Serializer', () => {
   var obj3 = {name: 'Nikhil', age: 28}
 
   it('Serializer String check', () => {
-    var s = new Serializer()
-    var a = s.serialize(obj1)
+    var a = Serializer.serialize(obj1)
     expect(a).to.be.an('string');
   })
 
   it('Serializer Inequality check', () => {
-    var s = new Serializer()
-    var a = s.serialize(obj1)
-    var b = s.serialize(obj2)
+    var a = Serializer.serialize(obj1)
+    var b = Serializer.serialize(obj2)
     expect(a).not.to.equal(b);
   })
 
   it('Serializer Equality check', () => {
-    var s = new Serializer()
-    var a = s.serialize(obj1)
-    var b = s.serialize(obj3)
+    var a = Serializer.serialize(obj1)
+    var b = Serializer.serialize(obj3)
     expect(a).to.equal(b);
   })
 

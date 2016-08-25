@@ -3,5 +3,5 @@ node_js:
   - "6"
   - "6.1"
 before_script:
-  - npm install -g gulp standard mocha
+  - npm install -g gulp standard mocha babel-eslint
 script: standard && mocha --compilers js:babel-core/register
